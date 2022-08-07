@@ -72,19 +72,19 @@
                   <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="about us.html" class="nav-link">About us</a>
+                  <a href="#about-us" class="nav-link">About us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="academy.html" class="nav-link">Our Services</a>
+                  <a href="#service-section" class="nav-link">Our Services</a>
                 </li>
                 <li class="nav-item">
-                  <a href="partners.html" class="nav-link">Partners</a>
+                  <a href="#our-partners" class="nav-link">Partners</a>
                 </li>
                 <li class="nav-item">
-                  <a href="blog.html" class="nav-link">Resources</a>
+                  <a href="#" class="nav-link">Resources</a>
                 </li>
                 <li class="nav-item">
-                  <a href="careers.html" class="nav-link">Careers</a>
+                  <a href="#" class="nav-link">Careers</a>
                 </li>
               </ul>
             </div>
@@ -157,7 +157,7 @@
                   </li>
                   <li class="d-flex align-items-center pb-1 mb-2">
                     <i class="bx bx-phone-call fs-xl text-primary me-2"></i>
-                    <a href="tel:4065550120" class="nav-link fw-normal p-0">(+234) 08110671481 </a>
+                    <a href="tel:4065550120" class="nav-link fw-normal p-0" id="service-section" >(+234) 08110671481 </a>
                   </li>
                 </ul>
               </div>
@@ -265,7 +265,7 @@
                   </li>
                 </ul>
               </div>
-              <a href="#" class="btn btn-link px-0">
+              <a href="#" class="btn btn-link px-0" id="about-us">
                 Learn more
                 <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
               </a>
@@ -277,19 +277,53 @@
         </div>
       </section>
 
+      <!-- About us -->
+      <section class="position-relative pt-5">
 
-      <!-- COVID banner -->
-      <section class="container">
-        <div class="card bg-white border-primary shadow-sm px-4 px-lg-0">
-          <div class="row align-items-center py-3">
-            <div class="col-xl-5 col-md-6 offset-lg-1 text-center text-md-start py-4 py-lg-5">
-              <h2 class="h1">Our Response to COVID-19</h2>
-              <h3 class="h4 text-primary">Get remote legal consulting help</h3>
-              <p class="mb-4 mb-lg-5">Are you in a COVID affected area, and need legal services, get help now.</p>
-              <a href="#" class="btn btn-primary">Find out more</a>
+        <!-- Background -->
+        <div class="position-absolute top-0 start-0 w-100 bg-position-bottom-center bg-size-cover bg-repeat-0" style="background-image: url(assets/img/about/hero-bg.svg);">
+          <div class="d-lg-none" style="height: 960px;"></div>
+          <div class="d-none d-lg-block" style="height: 768px;"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="container position-relative zindex-5 pt-5">
+          <div class="row">
+            <div class="col-lg-6">
+              
+              <!-- Text -->
+              <h1 class="pb-2 pb-md-3">About iSwear</h1>
+              <p class="fs-xl pb-4 mb-1 mb-md-2 mb-lg-3" style="max-width: 526px;">We are a dedicated team of passionate product managers, full stack developers, UX/UI designers, QA engineers and marketing experts helping businesses of every size — from new startups to public companies — launch their projects using our software.</p>
+              <!-- <img src="assets/img/about/clutch-dark.png" class=" d-dark-mode-none" width="175" alt="Clutch">
+              <img src="assets/img/about/clutch-light.png" class="d-none d-dark-mode-block" width="175" alt="Clutch"> -->
+              <div class="row row-cols-3 pt-4 pt-md-5 mt-2 mt-xl-4">
+                <div class="col">
+                  <h3 class="h2 mb-2">2,000</h3>
+                  <p class="mb-0"><strong>Remote</strong> Documents generated</p>
+                </div>
+                <div class="col">
+                  <h3 class="h2 mb-2">200</h3>
+                  <p class="mb-0"><strong>New Clients & Cases</strong> per Month</p>
+                </div>
+                <div class="col">
+                  <h3 class="h2 mb-2">50</h3>
+                  <p class="mb-0"><strong>Requests</strong> per Week</p>
+                </div>
+              </div>
             </div>
-            <div class="col-xl-6 col-lg-5 col-md-6">
-              <lottie-player class="mx-auto" src="assets/json/animation-financial-landing.json" background="transparent.html" speed="1" loop autoplay style="max-width: 416px;"></lottie-player>
+
+            <!-- Images -->
+            <div class="col-lg-6 mt-xl-3 pt-5 pt-lg-4">
+              <div class="row row-cols-2 gx-3 gx-lg-4">
+                <div class="col pt-lg-5 mt-lg-1">
+                  <img src="assets/branding/team (1).jpg" class="d-block rounded-3 mb-3 mb-lg-4" alt="Image">
+                  <img src="assets/branding/team (2).jpg" class="d-block rounded-3" alt="Image">
+                </div>
+                <div class="col">
+                  <img src="assets/branding/team (3).jpg" class="d-block rounded-3 mb-3 mb-lg-4" alt="Image">
+                  <img src="assets/branding/team (4).jpg" class="d-block rounded-3" alt="Image">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -361,99 +395,11 @@
           <div class="swiper-pagination position-relative d-xl-none pt-3 mt-4"></div>
         </div>
         <div class="d-flex flex-column flex-sm-row justify-content-center pt-3 pt-sm-4">
-          <a href="#" class="btn btn-primary shadow-primary btn-lg">Request a price</a>
+          <a href="#" class="btn btn-primary shadow-primary btn-lg" id="our-partners">Get Legal help now</a>
         </div>
       </section>
 
-
-      <!-- Industries (Slider) -->
-      <section class="container pt-xl-3 pb-5">
-        <h2 class="h1 text-center text-lg-start pb-4 mb-1 mb-lg-3">Industries We Serve</h2>
-        <div class="row pb-2 pb-md-4 pb-lg-5">
-          <div class="col-xl-4 col-lg-5 d-flex flex-column order-2 order-lg-1">
-
-            <!-- Swiper slider -->
-            <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
-              "spaceBetween": 30,
-              "loop": true,
-              "tabs": true,
-              "autoHeight": true,
-              "navigation": {
-                "prevEl": "#prev-industry",
-                "nextEl": "#next-industry"
-              }
-            }'>
-              <div class="swiper-wrapper text-center text-lg-start">
-
-                <!-- Item -->
-                <div class="swiper-slide" data-swiper-tab="#industry-1">
-                  <h3 class="h4 mb-4">
-                    <a href="#" class="nav-link justify-content-center justify-content-lg-start fw-bold p-0">
-                      Transportation &amp; Logistics
-                      <i class="bx bx-right-arrow-alt text-primary fs-3 fw-normal ms-2 mt-1"></i>
-                    </a>
-                  </h3>
-                  <p>Risus massa fames metus lectus diam maecenas dui. Nibh morbi id purus eget tellus diam, integer blandit. Ac condimentum a nisl sagittis, interdum. Et viverra maecenas quis cras sed gravida volutpat, cursus enim. Enim ut nulla netus porta lacus diam. Et enim ultrices nunc, nunc. In iaculis venenatis at sit.</p>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide" data-swiper-tab="#industry-2">
-                  <h3 class="h4 mb-4">
-                    <a href="#" class="nav-link justify-content-center justify-content-lg-start fw-bold p-0">
-                      Construction &amp; Real Estate
-                      <i class="bx bx-right-arrow-alt text-primary fs-3 fw-normal ms-2 mt-1"></i>
-                    </a>
-                  </h3>
-                  <p>Nunc, amet et, et at habitant. Eget quis justo, metus at metus sapien. Urna quisque rutrum pharetra pulvinar vitae quam blandit non. Orci tempor cursus egestas quis orci at nisi maecenas. Enim in ultrices tortor, nibh quis sollicitudin tellus non maecenas. In libero ut semper nunc magna tortor.</p>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide" data-swiper-tab="#industry-3">
-                  <h3 class="h4 mb-4">
-                    <a href="#" class="nav-link justify-content-center justify-content-lg-start fw-bold p-0">
-                      Education
-                      <i class="bx bx-right-arrow-alt text-primary fs-3 fw-normal ms-2 mt-1"></i>
-                    </a>
-                  </h3>
-                  <p>Vivamus nisl sit volutpat laoreet ligula et. Nunc, duis est justo, cras ipsum vulputate eget tellus augue. Amet, sagittis ut enim nisl commodo, pharetra. Sapien imperdiet tristique interdum aliquet varius vitae facilisis vel. Erat convallis eget elit eget iaculis. Morbi id facilisis ligula odio sed amet suspendisse duis aliquet. Justo quam convallis id sed.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slider controls (Prev / next buttons) -->
-            <div class="d-flex justify-content-center justify-content-lg-start mt-2 mt-lg-auto">
-              <button type="button" id="prev-industry" class="btn btn-prev btn-icon btn-sm me-2">
-                <i class="bx bx-chevron-left"></i>
-              </button>
-              <button type="button" id="next-industry" class="btn btn-next btn-icon btn-sm ms-2">
-                <i class="bx bx-chevron-right"></i>
-              </button>
-            </div>
-          </div>
-          <div class="col-lg-7 offset-xl-1 order-1 order-lg-2 pt-lg-3 mt-lg-n5 mb-4 mb-lg-0">
-
-            <!-- Swiper tabs (Industry images) -->
-            <div class="swiper-tabs mt-lg-n5">
-
-              <!-- Industry 1 -->
-              <div id="industry-1" class="swiper-tab active">
-                <img src="assets/img/landing/financial/industries/01.jpg" class="rounded-3" alt="Image">
-              </div>
-
-              <!-- Industry 2 -->
-              <div id="industry-2" class="swiper-tab">
-                <img src="assets/img/landing/financial/industries/02.jpg" class="rounded-3" alt="Image">
-              </div>
-
-              <!-- Industry 3 -->
-              <div id="industry-3" class="swiper-tab">
-                <img src="assets/img/landing/financial/industries/03.jpg" class="rounded-3" alt="Image">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
 
       <!-- Brands (Carousel) -->
       <section class="container my-n2 my-md-0">
@@ -717,6 +663,24 @@
         </div>
       </section>
 
+      
+      <!-- COVID banner -->
+      <section class="container">
+        <div class="card bg-white border-primary shadow-sm px-4 px-lg-0">
+          <div class="row align-items-center py-3">
+            <div class="col-xl-5 col-md-6 offset-lg-1 text-center text-md-start py-4 py-lg-5">
+              <h2 class="h1">Our Response to COVID-19</h2>
+              <h3 class="h4 text-primary">Get remote legal consulting help</h3>
+              <p class="mb-4 mb-lg-5">Are you in a COVID affected area, and need legal services, get help now.</p>
+              <a href="#" class="btn btn-primary">Find out more</a>
+            </div>
+            <div class="col-xl-6 col-lg-5 col-md-6">
+              <lottie-player class="mx-auto" src="assets/json/animation-financial-landing.json" background="transparent.html" speed="1" loop autoplay style="max-width: 416px;"></lottie-player>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <!-- Latest news (Carousel) -->
       <section class="bg-secondary py-5">
@@ -889,89 +853,13 @@
         </div>
       </section>
 
-
-      <!-- Contact form -->
-      <section class="position-relative py-5">
-        <div class="container position-relative zindex-5 py-2 py-md-4 py-lg-5">
-          <div class="row justify-content-center text-center pt-xl-2 pb-4 mb-1 mb-lg-3">
-            <div class="col-xl-6 col-lg-7 col-md-8 col-sm-11">
-              <h2 class="mb-4">Let's Change the Game Together</h2>
-              <p class="text-muted mb-0">Like what you have seen? Let’s get started. Just fill in a few details and we will get in touch as soon as possible.</p>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10">
-              <form class="row needs-validation" novalidate>
-                <div class="col-sm-6 mb-4">
-                  <label for="fn" class="form-label">First name</label>
-                  <input type="text" id="fn" class="form-control" required>
-                  <div class="invalid-feedback">Please, enter your first name!</div>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <label for="ln" class="form-label">Last name</label>
-                  <input type="text" id="ln" class="form-control" required>
-                  <div class="invalid-feedback">Please, enter your last name!</div>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <label for="email" class="form-label">Email address</label>
-                  <input type="email" id="email" class="form-control" required>
-                  <div class="invalid-feedback">Please, provide a valid email address!</div>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <label for="phone" class="form-label">Phone</label>
-                  <input type="text" id="phone" class="form-control" data-format='{"numericOnly": true, "delimiters": ["+1 ", " ", " "], "blocks": [0, 3, 3, 2]}' placeholder="+1 ___ ___ __">
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <label for="city" class="form-label">City</label>
-                  <select id="city" class="form-select" required>
-                    <option value="" disabled selected>Choose city</option>
-                    <option value="Boston">Boston</option>
-                    <option value="Chicago">Chicago</option>
-                    <option value="Los Angeles">Los Angeles</option>
-                    <option value="Miami">Miami</option>
-                    <option value="New York">New York</option>
-                    <option value="Philadelphia">Philadelphia</option>
-                  </select>
-                  <div class="invalid-feedback">Please, choose your city!</div>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <label for="company" class="form-label">Your company</label>
-                  <input type="text" id="company" class="form-control">
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <label for="position" class="form-label">Your position</label>
-                  <select id="position" class="form-select">
-                    <option value="Owner">Owner</option>
-                    <option value="CEO">CEO</option>
-                    <option value="Manager">Manager</option>
-                    <option value="Accountant">Accountant</option>
-                  </select>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <label for="people" class="form-label">People in company</label>
-                  <select id="people" class="form-select">
-                    <option value="0-10">0-10</option>
-                    <option value="10-25">10-25</option>
-                    <option value="25-50">25-50</option>
-                    <option value="50-100">50-100</option>
-                  </select>
-                </div>
-                <div class="col-12 mb-4">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea id="message" class="form-control" rows="4" required></textarea>
-                  <div class="invalid-feedback">Please, enter your message!</div>
-                </div>
-                <div class="col-12 text-center pt-2 pt-md-3 pt-lg-4">
-                  <button type="submit" class="btn btn-primary shadow-primary btn-lg">Send a request</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-
-        <!-- BG shape -->
-        <div class="position-absolute end-0 bottom-0 text-primary">
-          <svg width="469" height="343" viewBox="0 0 469 343" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M273.631 680.872C442.436 768.853 639.315 708.216 717.593 558.212C795.871 408.208 732.941 212.157 564.137 124.176C395.333 36.195 198.453 96.8326 120.175 246.836C41.8972 396.84 104.827 592.891 273.631 680.872ZM236.335 752.344C440.804 858.914 688.289 788.686 789.109 595.486C889.928 402.286 805.903 159.274 601.433 52.7043C396.964 -53.8654 149.479 16.3623 48.6595 209.562C-52.1598 402.762 31.8652 645.774 236.335 752.344Z" fill="currentColor"/><path opacity="0.08" fill-rule="evenodd" clip-rule="evenodd" d="M298.401 633.404C434.98 704.59 598.31 656.971 664.332 530.451C730.355 403.932 675.946 242.827 539.367 171.642C402.787 100.457 239.458 148.076 173.435 274.595C107.413 401.114 161.822 562.219 298.401 633.404ZM288.455 652.464C434.545 728.606 611.369 678.429 683.403 540.391C755.437 402.353 695.402 228.725 549.312 152.583C403.222 76.4404 226.398 126.617 154.365 264.655C82.331 402.693 142.365 576.321 288.455 652.464Z" fill="currentColor"/></svg>
+      <!-- CTA -->
+      <section class="position-relative bg-dark py-5">
+        <span class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255, 255, 255, .05)"></span>
+        <div class="container position-relative zindex-5 text-center my-xl-3 py-1 py-md-4 py-lg-5">
+          <p class="lead text-light opacity-70 mb-3">Ready to get started?</p>
+          <h2 class="h1 text-light pb-3 pb-lg-0 mb-lg-5">Get the legal assitance you need</h2>
+          <a href="#" class="btn btn-primary shadow-primary btn-lg">Work with us</a>
         </div>
       </section>
     </main>
@@ -1006,10 +894,11 @@
                 <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
                   <ul class="nav flex-column pb-lg-1 mb-lg-3">
                     <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Our Clients</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">News</a></li>
+                    <li class="nav-item"><a href="#about-us" class="nav-link d-inline-block px-0 pt-1 pb-2">About us</a></li>
+                       <li class="nav-item"><a href="#service-section" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
+                     <li class="nav-item"><a href="#our-partners" class="nav-link d-inline-block px-0 pt-1 pb-2">Partners</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Resources</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Careers</a></li>
                   </ul>
                   <ul class="nav flex-column mb-2 mb-lg-0">
                     <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
@@ -1032,14 +921,14 @@
               </div>
               <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                 <h6 class="mb-2">Contact Us</h6>
-                <a href="mailto:email@example.com" class="fw-medium">email@example.com</a>
+                <a href="mailto:info@iSwear.com" class="fw-medium">info@iSwear.com</a>
               </div>
             </div>
           </div>
         </div>
         <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
           <span class="text-light opacity-50">&copy; All rights reserved. Made by </span>
-          <a class="nav-link d-inline-block p-0" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a>
+          <a class="nav-link d-inline-block p-0" href="https://github.com/Ballox-by-Team-Wonder" target="_blank" rel="noopener">Team Wonder</a>
         </p>
       </div>
     </footer>
